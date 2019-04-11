@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <h1> Contact </h1>
+    <h1> My Contact </h1>
     <p>
       <h3> Huyen Thanh Pham </h3>
     </p>
@@ -19,12 +19,30 @@
     <p> Github: <a href="https://github.com/huyenpham2995">
         https://github.com/huyenpham2995
       </a></p>
-
-    <form class="" action="index.html" method="post">
-      <label> Your Full Name</label>
-      <input type="text" name="" value="" />
-      <input type="submit" name=""/>
+<hr />
+<h4> Your Contact Info </h4>
+    <!--When user hit submit, mail/Gmail (depends on browser will pop up
+ and the content of the email will contain their full name, email address
+and message -->
+    <form class="" action="mailto:thanhhuyen2995@gmail.com" method="post">
+      <table>
+        <tr>
+          <td> <label> Your Full Name: </label> </td>
+          <!--In the email it will appear Your Name=input user just typed in -->
+          <td> <input type="text" name="Your Name" value="" /> </td>
+        </tr>
+        <tr>
+          <td> <label> Your Email: </label> </td>
+          <td> <input type="email" name="" id=""> </td>
+        </tr>
+      </table>
+      <label> Your Message: </label> <br />
+      <!--Create a box for user to enter text i.e leave message -->
+      <textarea name="" id="" cols="30" rows="10"></textarea> <br />
+      <!--Create a submit button for user to submit their message -->
+      <input type="submit" name="" />
     </form>
+
   </body>
 
   </html>
