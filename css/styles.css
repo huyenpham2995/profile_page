@@ -3,13 +3,16 @@ body {
 }
 
 hr {
+  /* get rid of default border (a straight line*/
   border-style: none;
-border-top-style: dotted;
-border-color: #b8b2a6;
-border-width: 5px;
-width: 20%
+  border-top-style: dotted;
+  border-color: #b8b2a6;
+  border-width: 5px;
+  /* 20% of the width of the page, depends on screen size */
+  width: 20%
 }
 
-h1 {
-color: #494949;
-}
+h1 { color: #596e79;}
+h3 { color: #596e79;}
+strong { color: #596e79;}
+img { border-radius: 50%;}
